@@ -1,0 +1,12 @@
+vn:
+  page:
+    title:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      help: "Trợ giúp"
+      home: "Ứng dụng mẫu"
+    content:
+      about: "Đây là ứng dụng mẫu cho hướng dẫn"
+      contact: "Liên hệ Ruby on Rails về ứng dung mẫu"
+      help: "Trợ giúp về Ruby on Rails"
+      home: "Đây là trang chủ cho ứng dụng mẫu"
