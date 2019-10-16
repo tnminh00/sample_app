@@ -27,7 +27,5 @@ mailer:
   address: "smtp.gmail.com"
   port: 587
   domain: "gmail.com"
-  user_name: "motconvit58@gmail.com"
-  password: "hoiclgtdkm"
-  authentication: "plain"
 theme: "twitter-bootstrap-3"
+reset_sent_at: 2
