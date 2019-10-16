@@ -22,6 +22,18 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = false
 
+  config.action_mailer.default_url_options = {host: Settings.mailer.host, protocol: Settings.mailer.protocol}
+
+  config.action_mailer.smtp_settings = {
+    address: Settings.mailer.address,
+    port: Settings.mailer.port,
+    authentication: ENV["MAILER_AUTHENTICATION"],
+    domain: Settings.mailer.domain,
+    user_name: ENV["MAILER_USERNAME"],
+    password: ENV["MAILER_PASSWORD"],
+    enable_starttls_auto: true
+  }
+
   config.action_mailer.perform_caching = false
 
   config.active_support.deprecation = :log
