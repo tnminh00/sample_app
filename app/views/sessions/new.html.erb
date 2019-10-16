@@ -3,10 +3,10 @@
   <h1><%= t "page.title.login" %></h1>
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(:session, url: login_path) do |f| %>
-      <%= f.label t("page.login.email") %>
+      <%= f.label t("page.index.email") %>
       <%= f.email_field :email, class: "form-control" %>
 
-      <%= f.label t("page.login.password") %>
+      <%= f.label t("page.index.password") %>
       <%= f.password_field :password, class: "form-control" %>
 
       <%= f.label :remember_me, class: "checkbox inline center" do %>
