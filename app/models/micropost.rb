@@ -8,7 +8,9 @@ class Micropost < ApplicationRecord
   validates :image,
     content_type: {in: Settings.img_file},
     size: {less_than: Settings.img_size.megabytes}
+
   scope :order_microposts, ->{order created_at: :desc}
+  scope :feed, -> following_id {where user_id: following_id}
 
   def display_image
     image.variant resize: Settings.img_resize
