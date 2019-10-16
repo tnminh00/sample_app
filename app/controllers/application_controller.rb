@@ -3,6 +3,15 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
+  include SessionsHelper
+
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t "page.index.not_login"
+    redirect_to login_path
+  end
+
   private
 
   def set_locale
@@ -13,6 +22,4 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
-
-  include SessionsHelper
 end

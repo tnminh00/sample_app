@@ -6,7 +6,9 @@ news: "https://news.railstutorial.org"
 valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 gravatar:
   url: "https://secure.gravatar.com/avatar/"
-  size: 65
+  size: 70
+  size2: 50
+  size3: 80
   emails: "https://gravatar.com/emails"
 email:
   maximum: 255
@@ -29,3 +31,9 @@ mailer:
   domain: "gmail.com"
 theme: "twitter-bootstrap-3"
 reset_sent_at: 2
+content:
+  maximum: 140
+img_size: 5
+img_files: "image/jpeg,image/png,image/gif"
+img_resize: "500x500"
+img_file: ["image/jpeg", "image/png", "image/gif"]
