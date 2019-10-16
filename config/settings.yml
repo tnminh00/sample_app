@@ -37,3 +37,4 @@ img_size: 5
 img_files: "image/jpeg,image/png,image/gif"
 img_resize: "500x500"
 img_file: ["image/jpeg", "image/png", "image/gif"]
+row: 5
