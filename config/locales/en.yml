@@ -19,3 +19,12 @@ en:
     index:
       login: "Login"
       signup: "Sign up now!"
+    signup:
+      error: "error"
+      form: "The form contains"
+      name: "Name"
+      email: "Email"
+      create: "Create my account"
+      password: "Password"
+      confirm: "Confirmation"
+      success: "Welcome to the Sample App!"

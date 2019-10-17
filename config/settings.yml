@@ -4,9 +4,17 @@ ror: "Ruby on Rails"
 ruby: "https://rubyonrails.org/"
 news: "https://news.railstutorial.org"
 valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+gravatar:
+  url: "https://secure.gravatar.com/avatar/"
+  size: 65
 email:
   maximum: 255
-password:
-  minimum: 6
 name:
   maximum: 50
+password:
+  minimum: 6
+image:
+  name: "Rails logo"
+  url: "rails.png"
+  width: "80px"
+  height: "80px"
