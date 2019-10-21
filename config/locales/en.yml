@@ -5,8 +5,11 @@ en:
       help: "Help"
       contact: "Contact"
       home: "Sample App"
+      home2: "Home"
+      basic_title: "Ruby on Rails Tutorial Sample App"
     content:
       about: "This is the sample app for the tutorial."
-      help:  "Get help on the Ruby on Rails Tutorial"
-      contact: "Contact the Ruby on Rails Tutorial about the sample app"
+      help:  "Get help on the"
+      contact1: "Contact the"
+      contact2: "about the sample app"
       home: "This is the home page for the sample application"

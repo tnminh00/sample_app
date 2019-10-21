@@ -1,2 +1,6 @@
-<h1><%= I18n.t "page.title.contact"%></h1>
-<p><%= I18n.t "page.content.contact"%></p> 
+<% provide :title, t("page.title.contact") %>
+<h1><%= t "page.title.contact" %></h1>
+<p>
+<%= t "page.content.contact1" %> <%= link_to Settings.ror, Settings.home_ruby %> 
+<%= t "page.content.contact2" %>
+</p> 

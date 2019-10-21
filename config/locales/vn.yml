@@ -5,8 +5,11 @@ vn:
       contact: "Liên hệ"
       help: "Trợ giúp"
       home: "Ứng dụng mẫu"
+      home2: "Trang chủ"
+      basic_title: "Ứng dụng mẫu Ruby on Rails"
     content:
       about: "Đây là ứng dụng mẫu cho hướng dẫn"
-      contact: "Liên hệ Ruby on Rails về ứng dung mẫu"
-      help: "Trợ giúp về Ruby on Rails"
+      contact1: "Liên hệ"
+      contact2: "về ứng dung mẫu"
+      help: "Trợ giúp về"
       home: "Đây là trang chủ cho ứng dụng mẫu"
