@@ -1,10 +1,6 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to t("page.title.home"), root_path, id: "logo" %>
-    <div class="col-md-3 langue">
-      <%= link_to_unless I18n.locale == :en, "English", locale: :en %> | 
-      <%= link_to_unless I18n.locale == :vn, "VietNam", locale: :vn %>
-    </div>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("page.title.home2"), root_path %></li>
