@@ -146,8 +146,8 @@ input {
   height: auto;
 }
 
-.signup {
-  margin-top: 40px;
+.page {
+  margin-top: 25px;
 }
 
 #error_explanation {
@@ -167,4 +167,9 @@ input {
 
 .alert {
   margin-top: 40px;
+}
+
+p#new_user {
+  margin-top: 10px;
+  text-align: center;
 }

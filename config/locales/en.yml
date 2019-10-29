@@ -9,6 +9,7 @@ en:
       basic_title: "Ruby on Rails Tutorial Sample App"
       news: "News"
       signup: "Sign up"
+      login: "Log in"
     content:
       about: "This is the sample app for the tutorial."
       help:  "Get help on the."
@@ -28,3 +29,14 @@ en:
       password: "Password"
       confirm: "Confirmation"
       success: "Welcome to the Sample App!"
+    login:
+      new_user: "New user?"
+      danger: "Invalid email/password conbination"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      password: "Password"
+      email: "Email"
+      

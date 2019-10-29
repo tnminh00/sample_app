@@ -2,7 +2,7 @@
 <div class="center jumbotron">
   <h1><%= t "page.title.home" %></h1>
   <h2>
-  <%= t "page.content.home" %> <% link_to Settings.ror, Settings.home_ruby %>
+  <%= t "page.content.home" %><%= link_to Settings.ror, Settings.home_ruby %>
   </h2>
   <%= link_to t("page.index.signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
