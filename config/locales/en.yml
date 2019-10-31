@@ -30,6 +30,8 @@ en:
       confirm: "Confirmation"
       success: "Welcome to the Sample App!"
     login:
+      email: "Email"
+      password: "Password"
       new_user: "New user?"
       danger: "Invalid email/password conbination"
       users: "Users"
@@ -37,6 +39,5 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
-      password: "Password"
-      email: "Email"
+      remember: "Remember me on this computer"
       

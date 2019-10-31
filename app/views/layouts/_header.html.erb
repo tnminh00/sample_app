@@ -9,9 +9,9 @@
           <li><%= link_to t("page.login.users"), "#" %></li>
           <li class="dropdown">
             <%= link_to "#", class: "dropdown-toggle",
-              data: {toggle: "dropdown"} do %> 
+              data: {toggle: "dropdown"} do %>
                 <%= t("page.login.account") %><b class="caret"></b>
-              <% end %>
+            <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("page.login.profile"), current_user %></li>
               <li><%= link_to t("page.login.settings"), "#" %></li>
