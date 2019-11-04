@@ -1,0 +1,17 @@
+<% provide :title, t("page.title.index") %>
+<div class="row page">
+  <h1><%= t "page.title.index" %></h1>
+  <ul class="users">
+    <% @users.each do |user| %>
+      <li>
+        <%= gravatar_for user, size: 45 %>
+        <%= link_to user.name, user %>
+        <% if current_user.admin? && !current_user?(user) %>
+          | <%= link_to t("page.edit.delete"), user, method: :delete,
+            data: {confirm: t("page.edit.confirm")} %>
+        <% end %>
+      </li>
+    <% end %>
+    <%= paginate @users, theme: Settings.theme %>
+  </ul>
+</div>

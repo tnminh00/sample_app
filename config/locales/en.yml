@@ -10,6 +10,8 @@ en:
       news: "News"
       signup: "Sign up"
       login: "Log in"
+      edit: "Edit user"
+      index: "All users"
     content:
       about: "This is the sample app for the tutorial."
       help:  "Get help on the."
@@ -20,18 +22,18 @@ en:
     index:
       login: "Login"
       signup: "Sign up now!"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirmation"
+      not_login: "Please log in."
+      not_found: "User not found"
     signup:
       error: "error"
       form: "The form contains"
-      name: "Name"
-      email: "Email"
       create: "Create my account"
-      password: "Password"
-      confirm: "Confirmation"
       success: "Welcome to the Sample App!"
     login:
-      email: "Email"
-      password: "Password"
       new_user: "New user?"
       danger: "Invalid email/password conbination"
       users: "Users"
@@ -40,4 +42,13 @@ en:
       settings: "Settings"
       logout: "Log out"
       remember: "Remember me on this computer"
-      
+    edit:
+      update: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+      success: "Profile updated"
+      confirm: "You sure?"
+      delete: "Delete"
+      del_success: "User deleted"
+      del_unsuccess: "Delete fail"
+      not_admin: "You aren't admin"
