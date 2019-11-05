@@ -27,12 +27,13 @@ en:
       password: "Password"
       confirm: "Confirmation"
       not_login: "Please log in."
-      not_found: "User not found"
+      not_found: "User not found."
     signup:
       error: "error"
       form: "The form contains"
       create: "Create my account"
       success: "Welcome to the Sample App!"
+      activate: "Please check your email to activate your account"
     login:
       new_user: "New user?"
       danger: "Invalid email/password conbination"
@@ -52,3 +53,11 @@ en:
       del_success: "User deleted"
       del_unsuccess: "Delete fail"
       not_admin: "You aren't admin"
+    acc_activation:
+      text1: "Hi"
+      text2: "Welcome to Sample App! Click on the link below to activate your account"
+      text3: "Account not activated. Check your email for activation link."
+      text5: "Account activation"
+      activate: "Activate"
+      acc_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
