@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+
   scope "(:locale)", :locale => /en|vn/ do
     root "static_pages#home"
 
@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
     resources :users
     resources :account_activations, only: %i(edit)
+    resources :password_resets, except: %i(show destroy index)
   end
   
 end
