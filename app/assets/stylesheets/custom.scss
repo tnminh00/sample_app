@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5 ,h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -111,17 +111,23 @@ aside {
       border: 0;
       padding-top: 0;
     }
-    span {
-      display: none;
-      margin-bottom: 3px;
-      line-height: 1;
+    h3 {
+      font-size: 2.2em;
+      margin-top: 2px;
     }
-    h1 {
-      font-size: 1.4em;
+    span {
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1.1;
+    }
+    h2 {
+      line-height: 1.5em;
+      font-size: 3em;
       text-align: left;
       letter-spacing: -1px;
       margin-bottom: 3px;
       margin-top: 0px;
+      color: $black;
     }
   }
 }
@@ -196,5 +202,51 @@ p#new_user {
     overflow: none;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+.microposts {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $gray-medium-light;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $light-gray;
+    display: block;
+    margin-left: 60px; 
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.image {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }

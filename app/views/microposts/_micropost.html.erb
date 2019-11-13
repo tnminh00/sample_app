@@ -1,0 +1,12 @@
+<li id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user, size: Settings.gravatar.size2), micropost.user %>
+  <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+  <span class="content">
+    <%= micropost.content %>
+    <%= image_tag micropost.display_image if micropost.image.attached? %>
+  </span>
+  <span class="timestamp">
+    <%= t "page.micropost.text1" %><%= time_ago_in_words(micropost.created_at) %>
+      <%= t "page.micropost.text2" %> 
+  </span>
+</li>
