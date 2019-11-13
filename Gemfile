@@ -4,6 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.6.1"
 gem "rails", "~> 5.2.3"
 gem "rubocop", "0.46.0", require: false
+gem "image_processing"
+gem "mini_magick"
+gem "i18n-js"
+gem "active_storage_validations", "0.8.2"
 gem "sqlite3"
 gem "config"
 gem "bootstrap-sass", "3.4.1"
