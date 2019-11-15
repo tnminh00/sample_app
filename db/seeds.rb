@@ -17,3 +17,10 @@ users = User.order(:create_at).take(6)
   content = FFaker::Lorem.sentence
   users.each { |user| user.microposts.create!(content: content) }
 end
+
+users = User.all
+user = users.first
+following = users[2..30]
+followers = users[3..30]
+following.each { |followed| user.follow(followed) }
+followers.each { |follower| follower.follow(user) }
