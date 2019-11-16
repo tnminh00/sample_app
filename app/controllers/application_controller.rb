@@ -12,6 +12,14 @@ class ApplicationController < ActionController::Base
     redirect_to login_path
   end
 
+  def load_user
+    @user = User.find_by id: params[:id]
+
+    return if @user
+    flash[:danger] = t "page.index.not_found"
+    redirect_to root_path
+  end
+
   private
 
   def set_locale

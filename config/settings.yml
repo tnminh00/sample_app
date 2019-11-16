@@ -9,6 +9,8 @@ gravatar:
   size: 70
   size2: 50
   size3: 80
+  size4: 30
+  size5: 45
   emails: "https://gravatar.com/emails"
 email:
   maximum: 255

@@ -91,3 +91,8 @@ en:
       img_alert: "Maximum file size is 5MB. Please choose a smaller file."
       text1: "Posted "
       text2: "ago."
+    follow:
+      following: "Following"
+      followers: "Followers"
+      follow: "Follow"
+      unfollow: "Unfollow"

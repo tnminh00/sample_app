@@ -1,0 +1,15 @@
+<% @user ||= current_user %>
+<div class="stats">
+  <%= link_to controller: :followings, id: @user.id do %>
+    <strong id="following" class="stat">
+      <%= @user.following.size %>
+    </strong>
+    <%= t("page.follow.following") %>
+  <% end %>
+  <%= link_to controller: :followers, id: @user.id do %>
+    <strong id="followers" class="stat">
+      <%= @user.followers.size %>
+    </strong>
+    <%= t("page.follow.followers") %>
+  <% end %>
+</div>
